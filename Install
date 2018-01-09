@@ -1,4 +1,12 @@
 1.sudo apt-get update
+
+3.git clone https://github.com/google/protobuf.git
+
+4.cd protobuf
+
 2.sudo apt-get install autoconf automake libtool curl make g++ unzip
+
 3. ./autogen.sh && ./configure && make -j3 && make check -j3 && sudo make install -j3 && sudo ldconfig
 // I just -j3 instread of -j4 since i am running this overnight and don't have a good heat sink
+
+4.
