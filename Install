@@ -16,3 +16,9 @@ now to test
 2. sudo ldconfig
 
 3. make cpp
+
+4. ./add_person_cpp addressbook.data
+//this will ask you enter things in to fill out the structure
+
+5. ./list_people_cpp addressbook.data
+//this will print out thing from the struct
