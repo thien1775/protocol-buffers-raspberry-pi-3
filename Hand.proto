@@ -1,0 +1,13 @@
+syntax = "proto3";
+package demo;
+
+message Hand{
+    //float flex_resistor1 = 1;
+    //float flex_resistor2 = 2;
+    //float flex_resistor3 = 3;
+    //float flex_resistor4 = 4;
+    //float flex_resistor5 = 5;
+    repeated float flex_resistor = 1;
+}
+
+
