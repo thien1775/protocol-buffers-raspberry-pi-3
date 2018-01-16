@@ -10,6 +10,8 @@
 
 3. ./autogen.sh && ./configure && make -j3 && make check -j3 && sudo make install -j3 && sudo ldconfig
 // I just -j3 instread of -j4 since i am running this overnight and don't have a good heat sink
+// if this fails do 
+back up:sudo make install -j3 && sudo ldconfig
 
 now to test 
 
