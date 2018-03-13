@@ -1,7 +1,7 @@
 #!/bin/sh -e
 sudo apt-get update -y
 sudo apt-get upgrade -y
-git clone https://git.com/google/protobuf.git
+git clone https://github.com/google/protobuf.git
 cd protobuf
 sudo apt-get install autoconf automake libtool curl make g++ unzip
 ./autogen.sh 
