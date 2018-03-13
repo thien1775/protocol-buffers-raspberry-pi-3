@@ -1,3 +1,4 @@
+chmod +x googleproto.sh
 run bash script googleproto.sh
 
 now to test 
