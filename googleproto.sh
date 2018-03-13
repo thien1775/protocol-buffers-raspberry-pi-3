@@ -6,8 +6,8 @@ cd protobuf
 sudo apt-get install autoconf automake libtool curl make g++ unzip
 ./autogen.sh 
 ./configure 
-sudo make -j2
-sudo make -j2
+make -j2
+make check -j2
 sudo make install -j2
 sudo ldconfig
 
